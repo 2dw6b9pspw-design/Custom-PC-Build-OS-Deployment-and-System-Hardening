@@ -1,4 +1,5 @@
-# Custom PC Build, OS Deployment, and System Hardening
+# windows-endpoint-os-deployment-and-baseline-hardening
+
 
 ![Completed Build](images/completed-build.png)
 
@@ -42,7 +43,7 @@ This project documents the complete lifecycle of a custom-built desktop system, 
 ## Repository Structure
 
 <pre>
-gaming-pc-build-it-homelab/
+windows-endpoint-os-deployment-and-baseline-hardening
 │
 ├── README.md
 ├── parts-list.md
