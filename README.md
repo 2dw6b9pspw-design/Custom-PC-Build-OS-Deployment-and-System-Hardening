@@ -1,5 +1,4 @@
-# windows-endpoint-os-deployment-and-baseline-hardening
-
+# Windows Endpoint OS Deployment and Baseline Hardening
 
 ![Completed Build](images/completed-build.png)
 
