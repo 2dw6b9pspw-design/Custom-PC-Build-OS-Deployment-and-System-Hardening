@@ -1,5 +1,6 @@
 ![BIOS detection](../images/bios-nvme-detection.jpg)
 ![Disk management](../images/windows-disk-management.jpg)
+![Final drives](../images/windows-final-drives.jpg)
 # NVMe Storage Expansion and Boot Drive Migration
 
 ## Objective
