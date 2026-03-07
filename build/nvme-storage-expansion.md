@@ -1,3 +1,4 @@
+![BIOS detection](../images/bios-nvme-detection.jpg)
 # NVMe Storage Expansion and Boot Drive Migration
 
 ## Objective
