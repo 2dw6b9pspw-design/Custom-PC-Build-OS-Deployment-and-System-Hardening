@@ -19,7 +19,7 @@ Operating System: Windows 11
 
 Primary M.2 slot identified before installing the NVMe drives.
 
-![Empty M.2 slot](../images/nvme-before-removal.jpg)
+![Empty M.2 slot](../images/nvme-before-install.jpg)
 
 ---
 
