@@ -11,7 +11,6 @@ Upgrade the workstation storage configuration by moving the primary NVMe drive t
 Motherboard: ASUS TUF Gaming  
 Primary NVMe: Samsung 990 Pro 1TB (with heatsink)  
 Secondary NVMe: WD Black SN850X 2TB  
-
 Operating System: Windows 11
 
 ---
@@ -30,7 +29,7 @@ Samsung 990 Pro installed in the primary M.2 slot.
 
 WD Black SN850X installed in the secondary M.2 slot.
 
-![NVMe drives installed](../images/nvme-drives-installed.jpg)
+![NVMe drives installed](../images/nvme-installed.jpg)
 
 ---
 
@@ -45,7 +44,7 @@ Boot device remained:
 
 Windows Boot Manager (Samsung 990 Pro)
 
-![BIOS detection](../images/bios-nvme-detection.jpg)
+![BIOS NVMe Detection](../images/bios-nvme-detection.jpg)
 
 ---
 
@@ -53,7 +52,7 @@ Windows Boot Manager (Samsung 990 Pro)
 
 The new NVMe drive was initialized using GPT partition style.
 
-![Disk initialization](../images/windows-disk-init.jpg)
+![Disk Initialization](../images/windows-disk-init.jpg)
 
 ---
 
@@ -61,7 +60,7 @@ The new NVMe drive was initialized using GPT partition style.
 
 The WD Black SN850X was formatted as an NTFS volume using Windows Disk Management.
 
-![Disk management](../images/windows-disk-management.jpg)
+![Disk Management](../images/windows-disk-management.jpg)
 
 ---
 
@@ -77,7 +76,7 @@ Virtual Machines
 Security Tools  
 Lab Environments
 
-![Final drives](../images/windows-final-drives.jpg)
+![Final Drives](../images/windows-final-drives.jpg)
 
 ---
 
