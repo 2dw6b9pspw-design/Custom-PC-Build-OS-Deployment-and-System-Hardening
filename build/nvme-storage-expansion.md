@@ -29,7 +29,7 @@ Samsung 990 Pro installed in the primary M.2 slot.
 
 WD Black SN850X installed in the secondary M.2 slot.
 
-![NVMe drives installed](../images/nvme-installed.jpg.JPEG)
+![NVMe drives installed](../images/nvme-installed.jpg)
 
 ---
 
