@@ -1,5 +1,16 @@
 # workstation-build-os-deployment-and-hardening
 
+## Table of Contents
+
+- [Project Overview](#project-overview)
+- [Project Scope](#project-scope)
+- [Skills Demonstrated](#skills-demonstrated)
+- [Repository Structure](#repository-structure)
+- [Documentation Overview](#documentation-overview)
+- [Outcome](#outcome)
+- [Notes](#notes)
+- [Workstation Build Labs](#workstation-build-labs)
+
 ![Completed Build](images/completed-build.png)
 
 ## Project Overview
