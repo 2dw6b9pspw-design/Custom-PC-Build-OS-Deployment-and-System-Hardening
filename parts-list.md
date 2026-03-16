@@ -74,7 +74,7 @@ Selected for optimal compatibility with the AM5 platform and Ryzen memory perfor
 
 RGB memory was considered but ultimately unnecessary due to cooler clearance and lack of functional benefit. The non-RGB kit provided significant cost savings while maintaining performance.
 
---
+---
 
 ### GPU: MSI RTX 5060 Ti Gaming OC
 
