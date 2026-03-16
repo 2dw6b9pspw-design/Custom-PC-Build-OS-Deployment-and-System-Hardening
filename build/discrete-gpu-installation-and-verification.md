@@ -4,17 +4,17 @@
 
 Install and verify a discrete GPU on the workstation used to host the Monroe Redstone Technology Group (MRTG) IAM lab environment.
 
-Although the IAM environment itself does not require GPU acceleration, a dedicated GPU improves host system responsiveness and provides stable display output while managing multiple virtual machines.
+While the virtualized IAM infrastructure does not require GPU acceleration, a dedicated GPU improves host system responsiveness and ensures stable display output when managing multiple virtual machines.
 
 ---
 
 ## Hardware
 
-GPU Installed
+**GPU Installed**
 
-• MSI NVIDIA GeForce RTX 5060 Ti
+• MSI NVIDIA GeForce RTX 5060 Ti  
 
-Motherboard
+**Motherboard**
 
 • ASUS TUF Gaming B650-PLUS WIFI
 
@@ -22,26 +22,45 @@ Motherboard
 
 ## Pre-Installation State
 
-Prior to installation, the system relied on integrated graphics provided by the CPU.
+Prior to installation, the system relied on the CPU's integrated graphics.  
+The primary PCIe x16 slot on the motherboard was unoccupied.
 
-![GPU Pre Install](images/GPU_pre_install.png)
+<p align="center">
+<img src="../images/GPU_pre_install.png" width="650">
+</p>
+
+<p align="center">
+Primary PCIe x16 slot prior to GPU installation.
+</p>
 
 ---
 
 ## GPU Installation
 
-The GPU was installed into the primary PCIe x16 slot on the motherboard.
+The RTX 5060 Ti was installed into the motherboard's primary PCIe x16 slot and secured to the case.
 
-![GPU Installed](images/GPU_post_install.png)
+<p align="center">
+<img src="../images/GPU_post_install.png" width="650">
+</p>
+
+<p align="center">
+RTX 5060 Ti installed in the primary PCIe x16 slot on the ASUS TUF motherboard.
+</p>
 
 ---
 
 ## PCIe Power Connection
 
-The GPU requires supplemental PCIe power from the power supply.  
-The power cable was connected after seating the card in the PCIe slot.
+The GPU requires supplemental power from the power supply.  
+After installing the card, the PCIe power cable was connected.
 
-![PCIe Power Connection](images/GPU_PCIe.png)
+<p align="center">
+<img src="../images/GPU_PCIe.png" width="650">
+</p>
+
+<p align="center">
+PCIe power cable connected to the RTX 5060 Ti.
+</p>
 
 ---
 
@@ -49,14 +68,20 @@ The power cable was connected after seating the card in the PCIe slot.
 
 After booting the system, Windows successfully detected the GPU.
 
-Verification was performed using Device Manager.
+Verification was performed using **Windows Device Manager**, confirming that both the integrated graphics and NVIDIA GPU were recognized by the operating system.
 
-![Device Manager GPU Detection](images/gpu-device-manager.png)
+<p align="center">
+<img src="../images/gpu-device-manager.png" width="650">
+</p>
 
-Both the integrated graphics and the NVIDIA GPU are visible, confirming successful installation.
+<p align="center">
+Device Manager showing successful detection of the NVIDIA GeForce RTX 5060 Ti.
+</p>
 
 ---
 
 ## Outcome
 
-The workstation now includes a discrete GPU providing reliable display output and improved usability while managing multiple virtual machines for the MRTG IAM lab environment.
+The workstation now includes a discrete GPU providing reliable graphical output and improved usability when managing multiple virtual machines.
+
+The system is fully prepared to support the virtualization infrastructure used throughout the MRTG IAM lab series.
